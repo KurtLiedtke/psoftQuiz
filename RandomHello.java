@@ -13,11 +13,11 @@ public class RandomHello {
 	public String getGreeting() {
 			Random randomGenerator = new Random();
 			String[] greetings = new String[5];
-			greetings[0] = "Hello, World";
-			greetings[1] = "Hola Mundo";
-			greetings[2] = "Bonjour, le Monde";
-			greetings[3] = "Hallo Welt";
-			greetings[4] = "Ciao Mondo";
+			greetings[0] = "Kurtchacho";
+			greetings[1] = "Gurt";
+			greetings[2] = "Kurtsef";
+			greetings[3] = "Gurt";
+			greetings[4] = "TisKurt";
 			return greetings[randomGenerator.nextInt(4)];
 		}
 	
